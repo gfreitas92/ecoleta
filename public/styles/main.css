@@ -1,0 +1,33 @@
+:root{
+    --title-color:rgb(39, 3, 85);
+    --primary-color: #34cb79;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*borda do tamanho do conteudo*/
+}
+
+html{
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(242, 230, 248);
+     -webkit-font-smoothing: antialiazed;
+
+}
+
+a{
+    align-items: center;
+    text-decoration: none;
+}
+
+h1,h3,h4,h5,h6{
+   font-family: 'Montserrat', sans-serif;
+    font-size: 47px;
+    color: var(--title-color);
+}
